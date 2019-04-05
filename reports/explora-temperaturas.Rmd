@@ -1,7 +1,7 @@
 ---
-title: "Temperatura JP x CG"
+title: "Ivan Aguiar de Almeida"
 output:
-    html_document:
+    html_document: default
     df_print: paged
 theme: sandstone
 ---
@@ -21,28 +21,32 @@ climas = read_csv(here::here("data/clima_cg_jp-semanal.csv"),
 glimpse(climas)
 ```
 
-## Temperatura
+### Temperatura
 
-### Onde é mais quente?
+#### Onde é mais quente?
 
-
-### As temperaturas máximas semanais (o pico do calor) são tão diferentes quanto as médias? Mais?  
-
-
-### Quais os meses mais quentes e mais frios? 
+Dadas as distribuições das temperaturas coletadas, João Pessoa é mais quente que Campina Grande.
 
 
-### Qual foi o São João  mais frio de CG que está nos nossos dados?
+#### As temperaturas máximas semanais (o pico do calor) são tão diferentes quanto as médias? Mais?  
+
+
+#### Quais os meses mais quentes e mais frios? 
+
+Baseado nos dados, os meses mais frios são junho, julho e agosto, em ambas as cidades.
+
+
+#### Qual foi o São João  mais frio de CG que está nos nossos dados?
 
 
 
 ## Chuva
 
-### Quanto chove por semana em JP e CG?
+#### Quanto chove por semana em JP e CG?
 
-Como é a distribuição do volume de chuvas por semana em JP e CG? A chuva varia mais ou menos que a temperatura? O formato da distribuição é igual? 
+#### Como é a distribuição do volume de chuvas por semana em JP e CG? A chuva varia mais ou menos que a temperatura? O formato da distribuição é igual? 
 
-### No geral, onde chove mais?
+#### No geral, onde chove mais?
 
-### A distribuição é diferente em meses específicos? 
+#### A distribuição é diferente em meses específicos? 
 
