@@ -256,6 +256,7 @@ temp_month_jp %&gt;%
 <h2>Chuva</h2>
 <div id="no-geral-onde-chove-mais" class="section level4">
 <h4>No geral, onde chove mais?</h4>
+<p>Vemos que os meses de Abril a Julho são os meses mais chuvosos em ambas as cidades.</p>
 <pre class="r"><code>city_rain &lt;- clima[c(1,2,6)]
 
 city_rain_cg &lt;- filter(city_rain, cidade == &quot;Campina Grande&quot;)
@@ -293,6 +294,7 @@ city_rain_cg %&gt;%
 </div>
 <div id="a-distribuicao-e-diferente-em-meses-especificos" class="section level4">
 <h4>A distribuição é diferente em meses específicos?</h4>
+<p>Sim, podemos ver que, dadas as medições, a intensidade das chuvas aumenta nos meses de março a agosto e decai nos demais meses.</p>
 <pre class="r"><code>city_rain_cg %&gt;% 
     filter(!is.na(month), !is.na(chuva)) %&gt;%
     ggplot(aes(x = month, y = chuva)) + 

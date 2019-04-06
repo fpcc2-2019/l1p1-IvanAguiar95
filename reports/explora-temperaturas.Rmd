@@ -93,6 +93,8 @@ temp_month_jp %>%
 
 #### No geral, onde chove mais?
 
+Vemos que os meses de Abril a Julho são os meses mais chuvosos em ambas as cidades.
+
 ``` {r chove_mais}
 city_rain <- clima[c(1,2,6)]
 
@@ -131,6 +133,8 @@ city_rain_jp %>%
 ```
 
 #### A distribuição é diferente em meses específicos? 
+
+Sim, podemos ver que, dadas as medições, a intensidade das chuvas aumenta nos meses de março a agosto e decai nos demais meses.
 
 ``` {r dist_chuva}
 
